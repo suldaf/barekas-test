@@ -31,9 +31,7 @@
   <br/>
   
 # Design Reference:
-https://www.figma.com/file/LmmHy42JaojPFP0q1eFoks/Take-Home-Test-Front-End-Dev?node-i
-d=0%3A1
+https://www.figma.com/file/LmmHy42JaojPFP0q1eFoks/Take-Home-Test-Front-End-Dev?node-id=0%3A1
 
 # API Reference:
-https://ecdba7fe-ec10-4d90-8d0e-80f8364c7624.mock.pstmn.io/takehometest/frontend/web/das
-hboard
+https://ecdba7fe-ec10-4d90-8d0e-80f8364c7624.mock.pstmn.io/takehometest/frontend/web/dashboard
