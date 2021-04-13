@@ -29,7 +29,7 @@ export default function Revenue() {
   };
 
   return (
-    <div className="card p-4">
+    <div className="card p-2">
       <div className="header d-flex justify-content-between align-items-center">
         <h1 className="title">Line Chart</h1>
         <DatePicker

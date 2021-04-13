@@ -24,7 +24,7 @@ export default function User() {
     ],
   };
   return (
-    <div className="card p-4">
+    <div className="card p-2">
       <div className="header d-flex justify-content-between align-items-center">
         <h1 className="title">Users</h1>
         <button className="btn border border-2">
@@ -36,7 +36,7 @@ export default function User() {
         legend={{ position: "bottom" }}
         options={{
           tooltips: {
-            bodyFontSize: 24,
+            bodyFontSize: 14,
             callbacks: {
               label: (item, data) => {
                 if (data.labels[item.index] === "risk_averse") {
@@ -60,8 +60,3 @@ export default function User() {
     </div>
   );
 }
-
-// risk_averse"
-// 1: "conservative"
-// 2: "moderate"
-// 3: "risk_taker"

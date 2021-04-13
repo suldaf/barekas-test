@@ -26,7 +26,7 @@ export default function Convertion() {
     ],
   };
   return (
-    <div className="card p-4">
+    <div className="card p-2">
       <div className="header d-flex justify-content-between align-items-center">
         <h1 className="title">Conversion</h1>
         <button className="btn border border-2">
@@ -34,7 +34,6 @@ export default function Convertion() {
         </button>
       </div>
       <Pie
-        // data={data}
         data={data}
         legend={{ position: "bottom" }}
         options={{
@@ -46,7 +45,7 @@ export default function Convertion() {
                 return `$${revenue} (${items[data.labels[item.index]].count})`;
               },
             },
-            bodyFontSize: 24,
+            bodyFontSize: 14,
           },
         }}
       />

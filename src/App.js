@@ -42,7 +42,6 @@ function App() {
             <Datepicker />
           </div>
           <div className="col">
-            <h1 className="fw-bold">Order</h1>
             <Table />
           </div>
         </div>

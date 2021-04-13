@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <div className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <div className="col col-xl-6">
+        <div className="col-8">
           <div className="row">
             <div className="col-3 d-flex justify-content-start align-items-center">
               <h1>
@@ -46,14 +46,10 @@ export default function Nav() {
             </div>
           </div>
         </div>
-        <div className="col-2"></div>
         <div className="col-4">
-          <div
-            className="row"
-            style={{ justifyContent: "flex-end", alignItems: "flex-end" }}
-          >
+          <div className="row align-items-center">
             <div
-              className="col-4 ms-3"
+              className="col ms-3"
               style={{
                 border: "2px solid #dfdfdf",
                 display: "flex",
@@ -76,7 +72,7 @@ export default function Nav() {
                 style={{ fontSize: "2rem" }}
               ></i>
             </div>
-            <div className="col-1 ms-3">
+            <div className="col-2 ms-1">
               <button className="btn">
                 <span>
                   <i className="bi bi-bell" style={{ fontSize: "2rem" }}></i>
@@ -96,7 +92,7 @@ export default function Nav() {
                 </span>
               </button>
             </div>
-            <div className="col-1 ms-3">
+            <div className="col-2 ms-1">
               <button className="btn">
                 <span>
                   <i className="bi bi-gear" style={{ fontSize: "2rem" }}></i>
